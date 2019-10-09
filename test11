@@ -1,0 +1,10 @@
+#!/bin/bash
+exec 2> test11err
+
+echo "还没有执行exec永久重定向"
+
+exec 1> test11out
+
+echo "执行永久重定向并标准输出到test11out文件"
+
+echo "执行永久重定向并标准错误到testerr中" >& 2

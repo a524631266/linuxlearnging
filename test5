@@ -1,0 +1,6 @@
+ls: cannot access 'test': No such file or directory
+ls: cannot access 'badtest': No such file or directory
+test2:
+total 8
+drwxrwx--- 2 homewell homewell 4096 10月  9 09:35 .
+drwxrwx--- 4 homewell homewell 4096 10月  9 09:38 ..
